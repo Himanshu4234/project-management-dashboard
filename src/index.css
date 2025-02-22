@@ -230,3 +230,13 @@ input.member_name {
   flex-wrap: wrap;
   gap: 10px;
 }
+
+@media only screen and (max-width: 600px) {
+  .register_page_header {
+    min-width: 300px !important;
+  }
+
+  .userDashBoard .mainHeader {
+    min-width: 90% ! IMPORTANT;
+  }
+}

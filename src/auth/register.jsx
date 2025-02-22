@@ -29,7 +29,7 @@ const Register = () => {
 
   return (
     <div className="LoginPageContainer">
-      <div style={{ textAlign: "center", minWidth: "400px", maxWidth: "400px", margin: "auto", padding: "20px", border: "1px solid #ddd", borderRadius: "10px" }}>
+      <div className="register_page_header" style={{ textAlign: "center", minWidth: "400px", maxWidth: "400px", margin: "auto", padding: "20px", border: "1px solid #ddd", borderRadius: "10px" }}>
         <h2 className="loginHeading registerPage">Register</h2>
         
         {/* Show success or error message */}
